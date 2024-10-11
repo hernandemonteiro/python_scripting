@@ -1,6 +1,3 @@
-from jenkins import Jenkins
+import os
 
-
-jenkins_server = Jenkins(
-    'http://localhost:3005', username='admin', password='admin')
-print(jenkins_server.get_version())
+os.system("ls -l")
